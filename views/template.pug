@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title PS2 Template
+    body
+        h1 PS2 Template
+        if data
+            pre= JSON.stringify(data, null, 2)
+        else
+            p No data available
